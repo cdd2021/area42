@@ -18,4 +18,22 @@ If you have problems accessing or using the virtual world, you can use Teams [Su
 
 If you go to the [Virtual World](https://workadventure.cdd2021.com), you should find the following....
 
-![Screenshot1](img/wa0.JPG)
+![Screenshot1](img/wa0.jpeg)
+
+Here you can enter your name for your virtual avatar (your visual representation in the virtual world).
+
+Also, your browser should ask you if you want to share your microphone....
+
+![Screenshot2](img/wa1.jpeg)
+
+Please agree here so you can talk to everyone else in the virtual world.
+
+Then you can choose a character (your visual representation in the virtual world)...
+
+![Screenshot3](img/wa2.jpeg)
+
+Finally, you should release your camera...
+
+![Screenshot4](img/wa3.jpeg)
+
+And then you're ready to go...
