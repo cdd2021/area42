@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: maps
+spec:
+  minReadySeconds: 10
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      name: maps
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        name: maps
+    spec:
+      containers:
+      - image: thecodingmachine/workadventure-maps:v1.3.12
+        imagePullPolicy: Always
+        name: maps
+        ports:
+        - containerPort: 80
+          name: p80

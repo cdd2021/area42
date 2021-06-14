@@ -1,0 +1,15 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    ingress.kubernetes.io/rewrite-target: /
+  name: pusher
+spec:
+  rules:
+  - host: area42.eim.cloud-cenit.com
+    http:
+      paths:
+      - backend:
+          serviceName: pusher
+          servicePort: pusher-p8080
+        path: /pusher

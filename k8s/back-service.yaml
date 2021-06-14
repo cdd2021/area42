@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    name: back
+  name: back
+spec:
+  ports:
+  - name: back-p8080
+    port: 8080
+    targetPort: 8080
+  - name: back-p50051
+    port: 50051
+    targetPort: 50051
+  selector:
+    name: back

@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: website
+spec:
+  minReadySeconds: 10
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      name: website
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        name: website
+    spec:
+
+      containers:
+        - image: cenitecmrd.azurecr.io/cdd2021-website:1.0.0
+          imagePullPolicy: Always
+          name: website
+          ports:
+          - containerPort: 80
+            name: p80
+          resources:
+            limits:
+              memory: "512Mi"
+              cpu: "500m"
+            requests:
+              memory: "256Mi"
+              cpu: "250m"
+      imagePullSecrets:
+      - name: cenitecmrd-azurecr-io

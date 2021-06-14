@@ -1,0 +1,15 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    ingress.kubernetes.io/rewrite-target: /
+  name: back
+spec:
+  rules:
+  - host: bpi.eim.cloud-cenit.com
+    http:
+      paths:
+      - backend:
+          serviceName: back
+          servicePort: back-p8080
+        path: /api

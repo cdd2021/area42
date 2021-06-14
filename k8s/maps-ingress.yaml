@@ -1,0 +1,15 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    ingress.kubernetes.io/rewrite-target: /
+  name: maps
+spec:
+  rules:
+  - host: bpi.eim.cloud-cenit.com
+    http:
+      paths:
+      - backend:
+          serviceName: maps
+          servicePort: maps-p80
+        path: /maps

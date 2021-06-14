@@ -1,0 +1,53 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: front
+spec:
+  minReadySeconds: 10
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      name: front
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        name: front
+    spec:
+      containers:
+      - env:
+        - name: ADMIN_URL
+          value: /admin
+        - name: JITSI_PRIVATE_MODE
+          value: "false"
+        - name: JITSI_URL
+          value: cdd2021jitsi.cloud57.de
+        - name: PUSHER_URL
+          value: /pusher
+        - name: SECRET_JITSI_KEY
+          value: ""
+        - name: START_ROOM_URL
+          value: /_/global/cdd2021.github.io/area42/maps/foyer.json
+        - name: TURN_SERVER
+          value: turn:coturn.workadventu.re:443,turns:coturn.workadventu.re:443
+        - name: UPLOADER_URL
+          value: /uploader
+        - name: MAPS_URL
+          value: /maps
+        - name: MAX_PER_GROUP
+          value: "6"
+        image: thecodingmachine/workadventure-front:v1.3.15
+        imagePullPolicy: Always
+        name: front
+        ports:
+        - containerPort: 80
+          name: p80
+        resources:
+          limits:
+            memory: "4Gi"
+            cpu: "2000m"
+          requests:
+            memory: "1Gi"
+            cpu: "250m"
