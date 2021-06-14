@@ -2,7 +2,9 @@
 
 ## Overview
 
-Welcome to the CENIT Developer Days 2021, an event that will take place online this year. For this we have generated a virtual world in the 16bit style of video games of the 80s/90s.
+Welcome to the CENIT Developer Days 2021, an event that will take place online this year. For this we have generated a [virtual world](https://area42.eim.cloud-cenit.com) in the 16bit style of video games of the 80s/90s. The name of this new World is Area42.
+
+Here you can transfer to [Area42](https://area42.eim.cloud-cenit.com)
 
 ## System Requirements
 
@@ -16,7 +18,7 @@ If you have problems accessing or using the virtual world, you can use Teams [Su
 
 ## Access
 
-If you go to the [Virtual World](https://workadventure.cdd2021.com), you should find the following....
+If you go to the [Virtual World](https://area42.eim.cloud-cenit.com), you should find the following....
 
 ![Screenshot1](img/wa0.jpeg)
 

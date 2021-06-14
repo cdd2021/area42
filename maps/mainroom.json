@@ -91,7 +91,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/cdd2021.github.io\/workadventure\/maps\/mainroom_website.html"
+                 "value":"https:\/\/cdd2021.github.io\/area42\/maps\/mainroom_website.html"
                 }],
          "type":"tilelayer",
          "visible":true,
