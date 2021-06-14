@@ -25,7 +25,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"https:\/\/topradio-de-hz-fal-stream02-cluster01.radiohost.de\/kissfm_mp3-128"
+                 "value":"https:\/\/fluxfm.hoerradar.de\/flux-technoug-mp3-mq"
                 }],
          "type":"tilelayer",
          "visible":true,
