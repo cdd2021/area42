@@ -25,7 +25,8 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"https:\/\/topradio-de-hz-fal-stream02-cluster01.radiohost.de\/kissfm_mp3-128"
+                 "value":"https:\/\/listen.teatime.fm\/tunein-mp3"
+                 
                 }],
          "type":"tilelayer",
          "visible":true,
