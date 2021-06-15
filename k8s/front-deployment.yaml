@@ -31,14 +31,18 @@ spec:
         - name: START_ROOM_URL
           value: /_/global/cdd2021.github.io/area42/maps/foyer.json
         - name: TURN_SERVER
-          value: turn:coturn.workadventu.re:443,turns:coturn.workadventu.re:443
+          value: turn:bpi.eim.cloud-cenit.com:443,turns:bpi.eim.cloud-cenit.com:443
         - name: UPLOADER_URL
           value: /uploader
         - name: MAPS_URL
           value: /maps
         - name: MAX_PER_GROUP
           value: "6"
-        image: thecodingmachine/workadventure-front:v1.3.15
+        - name: CALLOUT_URL
+          value: "/callout/message.txt"
+        - name: CALLOUT_TIMER
+          value: "60000"
+        image: cenitecmrd.azurecr.io/workadventure/front:1.3.5.1
         imagePullPolicy: Always
         name: front
         ports:
@@ -51,3 +55,5 @@ spec:
           requests:
             memory: "1Gi"
             cpu: "250m"
+      imagePullSecrets:
+      - name: cenitecmrd-azurecr-io            

@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: callout
+spec:
+  rules:
+  - host: area42.eim.cloud-cenit.com
+    http:
+      paths:
+      - path: /callout
+        pathType: Prefix
+        backend:
+          service:
+            name: website
+            port: 
+              number: 80

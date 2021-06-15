@@ -367,7 +367,7 @@ code {
   </script>
 <h1 id="cenit-developer-days-2021">CENIT Developer Days 2021</h1>
 <h2 id="overview">Overview</h2>
-<p>Welcome to the CENIT Developer Days 2021, an event that will take place online this year. For this we have generated a <a href="https://area42.eim.cloud-cenit.com">virtual world</a> in the 16bit style of video games of the 80s/90s. The name of this new World is Area42.</p>
+<p>Welcome to the CENIT Developer Days 2021, an event that will take place online this year. For this we have generated a <a href="https://area42.eim.cloud-cenit.com" target="area42">virtual world</a> in the 16bit style of video games of the 80s/90s. The name of this new World is Area42.</p>
 <p><strong>Here you can transfer to <a href="https://area42.eim.cloud-cenit.com" target="area42">Area42</a></strong></p>
 <h2 id="system-requirements">System Requirements</h2>
 <ul>
@@ -376,11 +376,7 @@ code {
 <li>It is especially important that you <strong>disconnect your VPN connection to CENIT</strong>.</li>
 </ul>
 <h2 id="support">Support</h2>
-<ul>
-<li>If you have any trouble with the website, the first step is to reload the site with F5-Key. In most cases this will work.</li>
-<li>If you see in the main room, on the right site a white screen, than reload the page with F5.</li>
-</ul>
-<p>If you have problems accessing or using the virtual world, you can use Teams <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODJmZTRhYWYtYjQ1ZC00ZTlkLWIzNjctYTBjOTZhMDNkMDEx%40thread.v2/0?context=%7b%22Tid%22%3a%22ce368477-a736-4353-b4ef-741ef2740d36%22%2c%22Oid%22%3a%2258ac232b-c98c-4183-bc51-e62bef9f8148%22%7d">Support Teams Room</a>. Here Dirk Günther and Helge Schneider will help you. You can also chat with them directly in teams.</p>
+<p>If you have problems accessing or using the virtual world, you can use Teams <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjNjN2IyNTQtMjIxYy00NjMxLThhMTEtY2RhMjdjYjEwMDBh%40thread.v2/0?context=%7b%22Tid%22%3a%22ce368477-a736-4353-b4ef-741ef2740d36%22%2c%22Oid%22%3a%2258ac232b-c98c-4183-bc51-e62bef9f8148%22%7d%22">Support Teams Room</a>. Here Dirk Günther and Helge Schneider will help you. You can also chat with them directly in teams.</p>
 <h2 id="access">Access</h2>
 <p>If you go to the <a href="https://area42.eim.cloud-cenit.com" target="area42">Virtual World</a>, you should find the following....</p>
 <p><img src="img/wa0.jpeg" alt="Screenshot1"></p>
@@ -393,7 +389,7 @@ code {
 <p>Finally, you should release your camera...</p>
 <p><img src="img/wa3.jpeg" alt="Screenshot4"></p>
 <p>And then you're ready to go...</p>
-<p><strong><a href="https://area42.eim.cloud-cenit.com"  target="area42">Area42</a></strong></p>
+<p><strong><a href="https://area42.eim.cloud-cenit.com">Area42</a></strong></p>
 
 </body>
 </html>

@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: coturn
+spec:
+  rules:
+  - host: bpi.eim.cloud-cenit.com
+    http:
+      paths:
+      - backend:
+          serviceName: coturn
+          servicePort: coturn-p8080
+        path: /

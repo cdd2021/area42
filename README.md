@@ -16,7 +16,10 @@ Welcome to the CENIT Developer Days 2021, an event that will take place online t
 
 ## Support
 
-If you have problems accessing or using the virtual world, you can use Teams [Support Teams Room](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjNjN2IyNTQtMjIxYy00NjMxLThhMTEtY2RhMjdjYjEwMDBh%40thread.v2/0?context=%7b%22Tid%22%3a%22ce368477-a736-4353-b4ef-741ef2740d36%22%2c%22Oid%22%3a%2258ac232b-c98c-4183-bc51-e62bef9f8148%22%7d"). Here Dirk Günther and Helge Schneider will help you. You can also chat with them directly in teams.
+* If you have any trouble with the website, the first step is to reload the site with F5-Key. In most cases this will work.
+* If you see in the main room, on the right site a white screen, than reload the page with F5.
+
+If you have problems accessing or using the virtual world, you can use Teams [Support Teams Room](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODJmZTRhYWYtYjQ1ZC00ZTlkLWIzNjctYTBjOTZhMDNkMDEx%40thread.v2/0?context=%7b%22Tid%22%3a%22ce368477-a736-4353-b4ef-741ef2740d36%22%2c%22Oid%22%3a%2258ac232b-c98c-4183-bc51-e62bef9f8148%22%7d"). Here Dirk Günther and Helge Schneider will help you. You can also chat with them directly in teams.
 
 ## Access
 
